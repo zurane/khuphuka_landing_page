@@ -128,8 +128,6 @@ function initPhotoSlider(slider) {
     const img = new Image();
     img.src = camp.image;
   });
-
-  setInterval(() => show(active + 1), 6500);
 }
 
 document.querySelectorAll('[data-slider]').forEach(initPhotoSlider);
