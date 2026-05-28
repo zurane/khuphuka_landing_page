@@ -765,6 +765,14 @@ h3 {
     gap: 18px
   }
 
+  .circle .circle--cream {
+    width: 420px;
+    height: 420px;
+    background: var(--cream);
+    right: -200px !important;
+    bottom: -300px;
+  }
+
   .why__content {
     padding: 40px 0 78px
   }
@@ -795,6 +803,7 @@ h3 {
 }
 
 @media (max-width:760px) {
+
   .shell {
     width: min(calc(100% - 28px), var(--max))
   }
@@ -803,6 +812,9 @@ h3 {
     padding: 58px 0
   }
 
+  #about .circle {
+    display: none
+  }
 
   .nav {
     height: auto;
@@ -829,11 +841,10 @@ h3 {
 
   .menu-toggle {
     display: inline-flex;
-    background: rgba(255, 255, 255, .16);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, .35);
+    background: var(--lime);
+    color: var(--black);
     border-radius: 999px;
-    padding: 10px 14px
+    padding: 10px 10px
   }
 
   .nav>.button {
@@ -841,7 +852,7 @@ h3 {
   }
 
   .hero h1 {
-    font-size: 25px;
+    font-size: 32px;
     line-height: 1.2;
   }
 
