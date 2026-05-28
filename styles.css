@@ -827,10 +827,10 @@ h3 {
     position: absolute;
     left: 0;
     right: 0;
-    top: 70px;
+    top: 75px;
     background: #062b1c;
     padding: 25px 18px;
-    border-radius: 5px;
+    border-radius: 10px;
     flex-direction: column;
     align-items: flex-start
   }
