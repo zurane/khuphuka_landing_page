@@ -37,6 +37,8 @@ body {
   letter-spacing: -.02em;
 }
 
+
+
 img {
   max-width: 100%;
   display: block
@@ -357,8 +359,11 @@ h3 {
 }
 
 .eyebrow {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 16px;
+
   color: var(--lime);
   margin-bottom: 18px
 }
@@ -366,10 +371,12 @@ h3 {
 .eyebrow-chip {
   background: var(--lime);
   color: var(--black);
-  padding: 8px 10px;
+  padding: 6px 10px;
   border-radius: 16px;
   font-size: 14px;
 }
+
+
 
 .grade-card h3 {
   font-size: 26px;
@@ -575,6 +582,11 @@ h3 {
   text-transform: uppercase
 }
 
+.feature>span img {
+  width: 40px;
+  height: 40px;
+}
+
 .feature p {
   color: #53675d;
   padding-top: 6px;
@@ -720,6 +732,12 @@ h3 {
   max-width: 780px;
   color: #ecfff4;
   font-size: 18px
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .reveal {
