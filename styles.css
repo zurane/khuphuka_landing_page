@@ -313,8 +313,12 @@ h3 {
   gap: 10px;
 }
 
+.person-cards div {
+  margin-bottom: 18px;
+}
+
 .person-cards p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #455f54;
   margin-top: 10px;
@@ -912,7 +916,7 @@ h3 {
   }
 
   .intro__tag {
-    font-size: 54px
+    font-size: 80px
   }
 
   .camp-overview__grid {
