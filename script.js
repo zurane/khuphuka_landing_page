@@ -3,7 +3,14 @@ const navLinks = document.querySelector('.nav-links');
 
 menuToggle?.addEventListener('click', () => {
   const isOpen = navLinks.classList.toggle('is-open');
+  document.body.classList.toggle('menu-open', isOpen);
   menuToggle.setAttribute('aria-expanded', String(isOpen));
+});
+
+document.querySelector('.mobile-menu-overlay')?.addEventListener('click', () => {
+  navLinks.classList.remove('is-open');
+  document.body.classList.remove('menu-open');
+  menuToggle?.setAttribute('aria-expanded', 'false');
 });
 
 document.querySelectorAll('[data-accordion] .accordion__trigger').forEach((trigger) => {
