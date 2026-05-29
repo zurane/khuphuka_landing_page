@@ -208,7 +208,9 @@ h3 {
 .brand {
   font-weight: 900;
   letter-spacing: .02em;
-  color: #fff
+  color: #fff;
+  margin-top: 3px;
+  font-size: 25px;
 }
 
 .nav-links {
