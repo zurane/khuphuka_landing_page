@@ -13,6 +13,14 @@ document.querySelector('.mobile-menu-overlay')?.addEventListener('click', () => 
   menuToggle?.setAttribute('aria-expanded', 'false');
 });
 
+document.querySelectorAll('.nav-links a').forEach((link) => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('is-open');
+    document.body.classList.remove('menu-open');
+    menuToggle?.setAttribute('aria-expanded', 'false');
+  });
+});
+
 document.querySelectorAll('[data-accordion] .accordion__trigger').forEach((trigger) => {
   trigger.addEventListener('click', () => {
     const item = trigger.closest('.accordion__item');
