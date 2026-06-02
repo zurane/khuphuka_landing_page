@@ -1078,6 +1078,11 @@ select {
  .social-icons {
     padding-top: 18px;
  }
+
+ .social-icons a .material-icons {
+  font-size: 32px;
+  
+ }
   .footer__bottom {
     display: flex;
     flex-wrap: wrap;
