@@ -760,6 +760,7 @@ h3 {
 
 .contact-info h4 {
   font-size: 18px;
+  color: var(--lime);
   margin: 0;
 }
 
@@ -775,6 +776,10 @@ h3 {
   bottom: 18px;
   transform: translateX(-50%);
   width: min(86%, 1420px);
+}
+
+.footer__bottom .social-icons .material-icons {
+  font-size: 34px;
 }
 
 .contact-form {
@@ -1074,15 +1079,16 @@ select {
     display: block;
     text-align: left;
   }
- 
- .social-icons {
-    padding-top: 18px;
- }
 
- .social-icons a .material-icons {
-  font-size: 32px;
-  
- }
+  .social-icons {
+    padding-top: 18px;
+  }
+
+  .social-icons a .material-icons {
+    font-size: 32px;
+
+  }
+
   .footer__bottom {
     display: flex;
     flex-wrap: wrap;
