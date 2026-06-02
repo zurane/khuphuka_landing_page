@@ -796,7 +796,7 @@ select {
   padding: 12px 0;
   margin: 12px 0;
   outline: none;
-  border:none;
+  border: none;
   border-bottom: 1px solid #c9d9d0;
   background: transparent;
   color: var(--ink);
@@ -804,7 +804,7 @@ select {
   font-family: var(--font);
 }
 
-.contact-form label{
+.contact-form label {
   font-size: 14px;
   color: #496a5a;
   margin-top: 18px;
@@ -822,7 +822,7 @@ select {
   border-radius: 999px;
 
   background: var(--green);
-  color: #fff;  
+  color: #fff;
   padding: 7px 28px;
 }
 
@@ -1055,13 +1055,47 @@ select {
     padding-bottom: 96px
   }
 
+  .footer__top {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 28px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    background: #f4f7ef;
+    max-width: 360px;
+    padding: 28px;
+    margin-bottom: 90px;
+  }
+
   .footer__bottom {
     display: block;
     text-align: left;
   }
+ 
+ .social-icons {
+    padding-top: 18px;
+ }
+  .footer__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, .35);
+    padding: 18px 0;
+    margin-top: 18px;
+
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    transform: translateX(-50%);
+    width: min(90%, 1420px);
+  }
 
   .copyright-text-small {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 18px
   }
 }
