@@ -130,7 +130,7 @@ function initPhotoSlider(slider) {
       image.src = camp.image;
       image.alt = camp.alt;
       current.textContent = active + 1;
-0
+
       copy.classList.remove('is-changing');
       image.classList.add('is-active');
     }, 1000);
