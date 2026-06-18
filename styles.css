@@ -1017,6 +1017,11 @@ select {
     padding-inline: 20px
   }
 
+  .why__image {
+    height: 500px;
+    bottom: 0;
+  }
+
   .logistics-table div {
     grid-template-columns: 1fr;
     margin-right: 0;
