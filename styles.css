@@ -82,7 +82,7 @@ button {
 .section {
   position: relative;
   padding: 86px 0;
-  overflow: hidden
+
 }
 
 h1,
@@ -266,7 +266,8 @@ h3 {
 }
 
 .intro {
-  background: white
+  background: white;
+  padding-top: 130px;
 }
 
 .circle {
@@ -287,7 +288,8 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 0px;
-  align-items: start
+  align-items: start;
+
 }
 
 .intro__tag {
@@ -306,9 +308,17 @@ h3 {
   color: #254939;
   display: grid;
   gap: 18px;
-  max-width: 600px;
+  max-width: 800px;
 }
 
+.intro__content p:nth-child(1) {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.intro__content p {
+  max-width: 680px;
+}
 
 
 .person-cards {
@@ -318,7 +328,7 @@ h3 {
 }
 
 .person-cards div {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .person-cards p {
@@ -419,33 +429,37 @@ h3 {
 .why {
   background: var(--green);
   color: #fff;
-  padding: 0
+  padding: 0;
+  
 }
 
-.why .circle--yellow {
+/* .why .circle--yellow {
   width: 360px;
   height: 360px;
   background: var(--yellow);
   right: -120px;
   top: -165px
-}
+} */
 
 .why__grid {
   display: grid;
-  grid-template-columns: 42% 58%;
-  align-items: center
+  grid-template-columns: 41% 60%;
+  align-items: center;
+  position: relative;
 }
 
 .why__image {
-  height: 550px;
+  height: 700px;
   width: 100%;
+  position: relative;
+  bottom: -100px;
+  z-index: 1;
   object-fit: cover;
-  transform: translateY(-70px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, .25)
+
 }
 
 .why__content {
-  padding: 100px 0 95px 58px
+  padding: 100px 0 95px 58px;
 }
 
 .why h2 {
@@ -504,7 +518,7 @@ h3 {
 
 .logistics {
   background: var(--mint);
-  padding: 82px 0
+  padding: 180px 0 100px 0;
 }
 
 .logistics h2 {
