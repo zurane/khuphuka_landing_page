@@ -30,7 +30,7 @@ document.querySelectorAll('[data-accordion] .accordion__trigger').forEach((trigg
       other.classList.toggle('is-open', isActive);
       const btn = other.querySelector('.accordion__trigger');
       btn.setAttribute('aria-expanded', String(isActive));
-      btn.querySelector('span').textContent = isActive ? '−' : '+';
+      btn.querySelector('span').innerHTML = isActive ? '<span class="material-icons-outlined">expand_less</span>' : '<span class="material-icons-outlined">expand_more</span>';
     });
   });
 });

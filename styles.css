@@ -427,10 +427,10 @@ h3 {
 }
 
 .why {
-  background: var(--green);
+  background: #222222;
   color: #fff;
   padding: 0;
-  
+
 }
 
 /* .why .circle--yellow {
@@ -455,7 +455,6 @@ h3 {
   bottom: -100px;
   z-index: 1;
   object-fit: cover;
-
 }
 
 .why__content {
@@ -477,7 +476,7 @@ h3 {
   border-bottom: 1px solid rgba(255, 255, 255, .35)
 }
 
-.accordion__item:last-child {
+.accordion__item .accordion__item:last-child {
   border-bottom: 1px solid rgba(255, 255, 255, .35)
 }
 
@@ -495,14 +494,9 @@ h3 {
   cursor: pointer
 }
 
-.accordion__trigger span {
-  display: grid;
-  place-items: center;
-  border: 1px solid rgba(255, 255, 255, .55);
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  font-size: 16px
+.accordion__item .material-icons-outlined {
+  font-size: 28px;
+  font-weight: 100 !important;
 }
 
 .accordion__panel {
@@ -550,7 +544,7 @@ h3 {
 }
 
 .paradise {
-  background: #fff
+  background: #fafafa
 }
 
 .circle--lime {
@@ -691,38 +685,28 @@ h3 {
 }
 
 .safety__copy {
-  max-width: 640px;
+  max-width: 690px;
 }
 
 .safety {
   background: #fff;
-  padding-top: 54px
+  padding-top: 54px;
+}
+
+.safety__graphic {
+
+  height: 700px;
 }
 
 .safety__grid {
   display: grid;
   grid-template-columns: 42% 58%;
   gap: 86px;
-  align-items: center
+  align-items: center;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #c9d9d0;
 }
 
-
-
-
-.safety__graphic>img:first-child {
-  width: 100%;
-  object-fit: cover
-}
-
-.safety__graphic .cross {
-  position: absolute;
-  left: 24%;
-  top: 72px;
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  object-fit: cover
-}
 
 .safety h2 {
   font-size: clamp(36px, 3.2vw, 62px);
@@ -733,7 +717,7 @@ h3 {
 .safety p {
   font-size: 16px;
   color: #2f4c40;
-  max-width: 480px;
+  max-width: 570px;
   margin-bottom: 18px
 }
 
@@ -751,16 +735,6 @@ h3 {
   margin: 16px 0
 }
 
-/* .footer:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 66px;
-  transform: translateX(-50%);
-  height: 1px;
-  background: rgba(255, 255, 255, .22);
-  width: min(86%, 1420px)
-} */
 .footer__top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
