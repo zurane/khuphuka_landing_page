@@ -522,7 +522,6 @@ h3 {
 
 .logistics-table {
   margin-top: 36px;
-  border-top: 1px solid #c9d9d0
 }
 
 .logistics-table div {
@@ -530,7 +529,8 @@ h3 {
   grid-template-columns: 40% 1fr;
   gap: 28px;
   border-bottom: 1px solid #c9d9d0;
-  padding: 20px 0
+  padding: 20px 0;
+  margin-right: 100px
 }
 
 .logistics-table strong {
@@ -691,11 +691,6 @@ h3 {
 .safety {
   background: #fff;
   padding-top: 54px;
-}
-
-.safety__graphic {
-
-  height: 700px;
 }
 
 .safety__grid {
@@ -1019,6 +1014,7 @@ select {
 
   .logistics-table div {
     grid-template-columns: 1fr;
+    margin-right: 0;
     gap: 6px
   }
 
