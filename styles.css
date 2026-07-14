@@ -885,6 +885,10 @@ select {
 
 @media (max-width:760px) {
 
+  .site-header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, .33), rgba(0, 0, 0, .48)), url('assets/header-img-mobile.jpg') center/cover no-repeat;
+}
+
   .shell {
     width: min(calc(100% - 28px), var(--max))
   }
