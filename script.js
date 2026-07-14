@@ -30,7 +30,7 @@ document.querySelectorAll('[data-accordion] .accordion__trigger').forEach((trigg
       other.classList.toggle('is-open', isActive);
       const btn = other.querySelector('.accordion__trigger');
       btn.setAttribute('aria-expanded', String(isActive));
-      btn.querySelector('span').innerHTML = isActive ? '<span class="material-icons-outlined">expand_less</span>' : '<span class="material-icons-outlined">expand_more</span>';
+      btn.querySelector('span').innerHTML = isActive ? '<span class="icon"><img src="assets/expand_circle_up.svg" alt="Expand icon" /></span>' : '<span class="icon"><img src="assets/expand_circle_down.svg" alt="Expand icon" /></span>';
     });
   });
 });
@@ -46,7 +46,7 @@ document.querySelector('.js-next-grade')?.addEventListener('click', () => {
 const campSlides = [
   {
     title: 'Grade 12 Preparation Paradise Camp',
-    image: 'assets/grad-12-prep.jpg',
+    image: 'assets/kids-inclassroom.jpg',
     alt: 'Grade 12 learner writing during exam preparation',
     purpose: 'To intensively prepare learners for final matric examinations through structured revision, exam techniques, and emotional support.',
     focus: 'Subject revision, exam techniques and time management, stress and pressure management, motivation and resilience.',
@@ -55,7 +55,7 @@ const campSlides = [
   },
   {
     title: 'Grade 11 Smart Study Bootcamp',
-    image: 'assets/grad-12-prep.jpg',
+    image: 'assets/kids-inclassroom.jpg',
     alt: 'Grade 11 smart study bootcamp visual',
     purpose: 'To prepare learners academically and mentally for the demands of Grade 12.',
     focus: 'Study techniques and time management, critical thinking, exam preparation strategies, stress management, focus and discipline.',
@@ -64,7 +64,7 @@ const campSlides = [
   },
   {
     title: 'Grade 10 Passage to Maturity Camp',
-    image: 'assets/grad-12-prep.jpg',
+    image: 'assets/kids-inclassroom.jpg',
     alt: 'Grade 10 learners gathered around a campfire',
     purpose: 'To guide learners through adolescence by fostering self-discovery, leadership skills, and responsible decision-making.',
     focus: 'Identity and self-worth, leadership and influence, peer pressure and values, accountability and responsibility, healthy relationships.',
@@ -73,7 +73,7 @@ const campSlides = [
   },
   {
     title: 'Grade 9 Careers & Subject Choices Camp',
-    image: 'assets/grad-12-prep.jpg',
+    image: 'assets/kids-inclassroom.jpg',
     alt: 'Grade 9 learner considering school subject choices',
     purpose: 'To empower learners to make informed Grade 10 subject choices aligned to their strengths and interests.',
     focus: 'Strengths and interests identification, career exploration, subject-to-career alignment, decision-making skills, goal setting.',
@@ -82,7 +82,7 @@ const campSlides = [
   },
   {
     title: 'Grade 8 Induction Camp',
-    image: 'assets/grad-12-prep.jpg',
+    image: 'assets/kids-inclassroom.jpg',
     alt: 'Grade 8 learners gathered for school induction',
     purpose: 'To support learners transitioning into secondary school and help them adapt socially, emotionally and academically.',
     focus: 'Navigating high school expectations, building positive peer relationships, responsibility and independence, school culture and values, managing change.',
@@ -91,7 +91,7 @@ const campSlides = [
   },
   {
     title: 'Grade 7 Leadership & Self-discovery Camp',
-    image: 'assets/grad-12-prep.jpg',
+    image: 'assets/kids-inclassroom.jpg',
     alt: 'Grade 7 learners completing an outdoor teamwork activity',
     purpose: 'To inspire young leaders while building self-confidence, resilience and teamwork skills.',
     focus: 'Self-awareness and identity, confidence building, teamwork and collaboration, communication skills, positive leadership behaviors.',
